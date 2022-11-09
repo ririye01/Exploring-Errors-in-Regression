@@ -12,9 +12,10 @@ where $Var(\hat{f})$ is the *Variance*, which refers to the amount by which $\ha
 **Data Generation:** I will be generating data using the following models. Let $y = f(x) + \epsilon$, where $\epsilon$ is the random noise (e.g. Gaussian) and $f(x)$ has three forms as:
 1. A linear function $f(x) = ax + b$;
 2. A quadratic function $f(x) = ax^2 + bx + c$;
-3. A nonlinear function: e.g. $f(x) = x\sin(x)$, $f(x) = \frac{1}{1 + 25x^2}$ ![image](https://user-images.githubusercontent.com/63213726/200918310-d94ac411-f87c-4c47-adcd-1575a85df0bc.png)
+3. A nonlinear function: e.g. $f(x) = x\sin(x)$, $f(x) = \frac{1}{1 + 25x^2}$ 
 
-</br></br>
+
+
 <ins>NOTE</ins>: I will be picking a domain and deciding how many data points to produce. I will be splitting my data into the training set and the test set randomly and so validation can be performed. For the random noise, I will be controlling the mean and variance, choosing them arbritrarily as I see fit.
 
 
