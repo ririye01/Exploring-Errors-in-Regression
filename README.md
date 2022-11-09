@@ -1,4 +1,5 @@
-# Exploring-Errors-in-Regression
+# Exploring Errors in Regression
+## Overview
 This project studies regression of data whose underlying function varies from linear to very nonlinear using methods with different flexibility. From the class, we learned that the mean-squared errors $MSE$ is given as:
 
 
